@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* Adicionei aspas e verifique o caminho abaixo */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.39)), url("../img/completo.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* Garante que o body tenha altura para mostrar o fundo */
+    margin: 0%;
+    min-height: 100vh;
+}
+.logo{
+    background-color: white;
+}
+span{
+    color: #1cba60;
+}
+.container{
+    max-width: 1400px;
+    padding: 3%;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .logo{
+    font-size: 35px;
+    font-style: italic;
+    color: white;
+    font-weight: bold;
+}
+nav ul{
+   list-style: none;
+
+}
+nav ul li{
+    display: inline-block;
+ 
+ }
+
+ nav ul li a{
+   padding: 10px 10px;
+   text-decoration: none;
+   font-size: 19px;
+   color: #1cba60;
+   border-radius: 30px;
+   transition: 0.6s;
+ }
+ nav ul li a:hover{
+    background-color: rgb(0, 123, 255);
+    
+  }
